@@ -18,15 +18,7 @@
     "dist/public-api.d.ts"
   ],
   "devDependencies": {
-    "@angular-devkit/architect": "^0.1402.13",
-    "@angular-devkit/build-ng-packagr": "^0.1002.0",
-    "@angular-devkit/core": "^14.2.13",
-    "@angular-devkit/schematics": "^14.2.13",
-    "@angular-eslint/builder": "~13.2.1",
-    "@angular-eslint/eslint-plugin": "~13.2.1",
-    "@angular-eslint/eslint-plugin-template": "~13.2.1",
-    "@angular-eslint/schematics": "~13.2.1",
-    "@angular-eslint/template-parser": "~13.2.1",
+    "@angular-devkit/build-angular": "14.2.13",
     "@angular/cli": "^14.2.13",
     "@angular/compiler": "^14.3.0",
     "@angular/compiler-cli": "^14.3.0",
@@ -36,7 +28,7 @@
     "@typescript-eslint/eslint-plugin": "~5.17.0",
     "@typescript-eslint/parser": "~5.17.0",
     "eslint": "^8.19.0",
-    "ng-packagr": "^13.1.2",
+    "ng-packagr": "^14.2.2",
     "rimraf": "^3.0.2",
     "tslib": "^2.4.0",
     "typescript": "~4.8.4"

@@ -1,10 +1,7 @@
 {
   "$schema": "../../node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "59ffa730-d0ea-479d-8fe7-398260cdcb49",
-    "schematicCollections": [
-      "@angular-eslint/schematics"
-    ]
+    "analytics": "59ffa730-d0ea-479d-8fe7-398260cdcb49"
   },
   "version": 1,
   "projects": {
@@ -15,7 +12,7 @@
       "prefix": "q-grid",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "tsconfig.lib.json",
             "project": "ng-package.json"
@@ -45,8 +42,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "defaultCollection": "@angular-eslint/schematics"
   }
 }
