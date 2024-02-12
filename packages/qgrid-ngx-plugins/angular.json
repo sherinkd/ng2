@@ -1,7 +1,10 @@
 {
   "$schema": "../../node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "59ffa730-d0ea-479d-8fe7-398260cdcb49"
+    "analytics": "59ffa730-d0ea-479d-8fe7-398260cdcb49",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   },
   "version": 1,
   "projects": {
